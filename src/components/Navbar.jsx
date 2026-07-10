@@ -33,8 +33,8 @@ export function Navbar() {
             <div className="flex shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500"
-                className="h-8 w-auto"
+                src="../src/assets/BusIcon.png"
+                className="h-10 w-auto"
               />
             </div>
             <div className="hidden sm:ml-6 sm:block">
@@ -86,7 +86,7 @@ export function Navbar() {
                     href="#"
                     className="block px-4 py-2 text-sm text-gray-300 data-focus:bg-white/5 data-focus:outline-hidden"
                   >
-                    Your profile
+                    Profile Settings
                   </a>
                 </MenuItem>
                 <MenuItem>
