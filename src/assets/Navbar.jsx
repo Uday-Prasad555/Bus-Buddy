@@ -33,7 +33,7 @@ export function Navbar() {
             <div className="flex shrink-0 items-center">
               <img
                 alt="Your Company"
-                src="../src/assets/BusIcon.png"
+                src="../src/assets/images/BusIcon.png"
                 className="h-10 w-auto"
               />
             </div>
@@ -72,7 +72,7 @@ export function Navbar() {
                 <span className="sr-only">Open user menu</span>
                 <img
                   alt=""
-                  src="../src/assets/robot.png"
+                  src="../src/assets/images/robot.png"
                   className="size-8 rounded-full bg-gray-800 outline -outline-offset-1 outline-white/10"
                 />
               </MenuButton>
