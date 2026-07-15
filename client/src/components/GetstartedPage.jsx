@@ -5,7 +5,7 @@ export function GetstartedPage() {
 
   return (
     <div className="bg-gray-900">
-      <header className="absolute inset-x-160 top-50 z-50">
+      <header className="absolute top-4 left-4 z-50 sm:top-6 sm:left-6 lg:top-8 lg:left-8">
         <div className="flex lg:flex-1">
           <a href="#" className="-m-1.5 p-1.5">
             <span className="sr-only">Bus Buddy</span>
@@ -29,7 +29,7 @@ export function GetstartedPage() {
         </div>
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="text-center">
-            <h1 className="text-5xl font-semibold tracking-tight text-balance text-white sm:text-7xl">
+            <h1 className="text-5xl font-semibold tracking-tight text-balance text-white/40 sm:text-7xl">
               Bus Buddy
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-400 sm:text-xl/8">
